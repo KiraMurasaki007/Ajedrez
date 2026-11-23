@@ -1,0 +1,16 @@
+{
+  "name": "ajedrez",
+  "version": "1.0.0",
+  "description": "Ajedrez web con computadora, dos jugadores y modo en línea",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "node tools/build.js",
+    "test": "node tests/rules.js && node tests/perft.js && node tests/ai.js && node tests/rooms.js && node tests/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
